@@ -1,16 +1,16 @@
 import MapDatabase.OSMDatabase;
 import java.io.IOException;
 
-/* This is A Test Program that Count Number of OSM Nodes, Ways, and Relations
+/* This is A Test Program that Count Number of OSM Nodes, Ways, and Relations from an OSM Map File
  *
- * The program loads all data from a PFD format OSM file and output the size of
+ * The program loads all data from a PBF format OSM file and output the size of
  * each TreeMap that contains OSM Nodes, Ways, and Relations
  */
 public class Main {
     public static void main(String[] args) {                    //Construct OSMDatabase with your Map File
 
-        OSMDatabase mapData = new OSMDatabase("<YourMapFile>");
-
+        OSMDatabase mapData = new OSMDatabase("<YourMapFile>"); //Note: map size preferrably < 100MB
+                                                                //      large maps may cause out of memory issue
         System.out.println("Start Loading Map...");
 
         try {
