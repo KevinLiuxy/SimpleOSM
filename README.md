@@ -15,7 +15,10 @@ OpenStreetMap file, and it will read all OSM Nodes, Ways, and Relations data fro
 2. That's all you need! Now you can read PBF OSM files and get access to all its data.
 </p><p>
 --> please read <a href="https://github.com/KevinLiuxy/SimpleOSM/blob/master/OSMDatabase_example/Main.java">
-this example</a> to see how you can quickly extract data from an OSM file.
+    this example</a> to see how you can quickly extract data from an OSM file.
+</p><p>
+--> You can also download and read Javadoc file at <code>SimpleOSM/OSMDatabase/Javadoc</code>
+    for more information.
 </p>
 
 <h3>About the Source Code</h3>
